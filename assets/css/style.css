@@ -42,4 +42,30 @@ ul li {
 
 #tv-show {
   flex-basis: min-content;
+}
+
+#treding {
+  margin: 20px 0;
+}
+
+.footer-container {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 100px;
+}
+@media screen and (max-width: 992px) {
+  .footer-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+.footer-container .colorFooter, .footer-container p {
+  color: #818181;
+}
+.footer-container p {
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+.footer-container i {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

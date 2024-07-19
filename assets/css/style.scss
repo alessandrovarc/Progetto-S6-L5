@@ -52,3 +52,27 @@ ul {
     flex-basis: min-content;
 }
 
+#treding {
+    margin: 20px 0;
+}
+
+.footer-container {
+    padding-left: 20%;
+    padding-right: 20%;
+    @media screen and (max-width : 992px) {  //sotto lg
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    margin-top: 100px;
+    .colorFooter {
+        color: #818181;
+    }
+    p {
+        font-size: 11px;
+        @extend .colorFooter;
+        margin-bottom: 8px;
+    }
+    i {
+        font-size: 20px;
+    }
+}
