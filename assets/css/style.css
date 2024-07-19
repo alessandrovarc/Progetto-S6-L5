@@ -1,0 +1,45 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container-fluid {
+  padding-inline: 44px;
+}
+
+ul {
+  gap: 20px;
+}
+ul li {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  color: white;
+  gap: 27px;
+}
+.icons .toggle {
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+.icons .toggle > img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(107deg) brightness(107%) contrast(103%);
+}
+.icons .img-container {
+  all: unset;
+}
+.icons .img-container .profile-img {
+  width: 20px;
+  height: 20px;
+}
+
+#toggle-container {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(107deg) brightness(107%) contrast(103%);
+}
+
+#tv-show {
+  flex-basis: min-content;
+}/*# sourceMappingURL=style.css.map */
